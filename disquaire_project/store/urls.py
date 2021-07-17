@@ -7,6 +7,7 @@ from . import views
 
 urlpatterns = [
     path('',views.listing),
-    path('<int:album_id>/',views.details)
+    path('<int:album_id>/', views.details),
+    path('search/',views.search)
 
 ]
